@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Country flags</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="themes/game.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/style.css">s
+
+    <script src="java/jquery-1.11.1.min.js"></script>
+    <script src="java/jquery.mobile-1.4.5.min.js"></script>
+    <script src="java/script.js"></script>
+
+
+</head>
+
+<body>
+    <div data-role="page" id="loadPage">
+        <img src="image/wallpapers.jpg" alt="imageLoad" id="loadImage">
+        <p id="textLoad">Yassine Azouagh presents the game ...</p>
+
+    </div>
+
+
+    <div data-role="page" id="gegevens">
+        <h1 id="titelGegevens">Country flags</h1>
+
+        <img alt="wereldImage" src="image/countries.png" id="wereldGegevens">
+
+        <p class="gegevensNaam">Enter your name:</p>
+        <input type="text" alt="naam" id="txtNaam">
+
+        <input type="button" id="btnConfirm" class="confirm" alt="Confirm" value="CONFIRM">
+
+    </div>
+
+    <div data-role="page" id="welcome" onload="load2()">
+        <audio id="musicStart" loop>
+            <source src="music/sound.mp3">
+        </audio>
+        <p id="welcomeParagraph"></p>
+
+        <!--  <input type="image" alt="accepte" src="image/buttonVolgende.png" id="buttonAccept">-->
+        <div id="buttonAccept">
+            <p>ACCEPT</p>
+        </div>
+
+
+    </div>
+
+    <div data-role="page" id="menu">
+        <input type="image" alt="sound" src="image/sound.png" class="sound">
+        <input type="image" alt="info" src="image/info.png" id="infoApp">
+        <div id="fixedBottom">
+            <button type="submit" id="europeBTN">
+                <img src="image/EUROPE/europe.png" alt="Save icon" id="europeImg" />
+                <img src="image/unlock.png" alt="Save icon" id="lockEurope" />
+                <br/>
+                <div class="textButton">
+                    <p>EUROPE</p>
+                </div>
+            </button>
+
+
+
+            <button type="submit" id="afrikaBTN">
+                <img src="image/AFRICA/afrika.png" alt="Save icon" id="afrikaImg" />
+                <img src="image/lock.png" alt="Save icon" id="lockAfrika" />
+                <br/>
+                <div class="textButton">
+                    <p>AFRICA</p>
+                </div>
+            </button>
+
+
+            <button type="submit" id="asiaBTN">
+                <img src="image/ASIA/asia.png" alt="Save icon" id="asiaImg" />
+                <img src="image/lock.png" alt="Save icon" id="lockAsia" />
+                <br/>
+                <div class="textButton">
+                    <p>ASIA</p>
+                </div>
+            </button>
+
+
+
+
+
+        </div>
+
+
+
+
+        <div data-role="popup" id="popupInfo" data-overlay-theme="a" data-theme="b" data-dismissible="false">
+            <div data-role="header" data-theme="a">
+
+                <h2 id="Info">Information about the game</h2>
+
+
+            </div>
+            <div role="main" class="ui-content">
+
+
+
+
+                <div id="Info">
+
+                    <p>
+                        Here is a game that could make you lose your head! LOL</p>
+                 
+                    <p>
+
+                        This game is composed of three levels.There is in each level a difficulty. <br>Good luck!
+                    </p>
+                    
+                       <p>Powered by Yassine Azzouagh</p>
+
+
+                </div>
+
+                <button id="returnBtn">Return</button>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <div data-role="page" id="world">
+        <input type="image" alt="sound" src="image/sound.png" class="sound">
+        <input type="image" alt="info" src="image/info.png"  id="infoApp" >
+        <input type="image" alt="back" src="image/back.png" class="back">
+        <div id="infoWorld">
+            <h1 id="continent"></h1>
+            <h2 id="point"></h2>
+            <h3 id="timer"></h3>
+
+        </div>
+        <div id="vraagbox">
+
+            <div id="vraag">
+                <!--   <p id="getCountry"></p>-->
+                <img src="" alt="country" id="countryVraag">
+            </div>
+            <input type="text" alt="antwoord" id="antwoord">
+            <button id="btnAntwoord">Check</button>
+
+            <div id="commentaar">
+                <p id="GoodOrNot"> </p>
+            </div>
+
+        </div>
+        <div id="myProgress">
+            <div id="scoor"></div>
+        </div>
+
+
+
+        <div data-role="popup" id="popupInfo" data-overlay-theme="a" data-theme="b" data-dismissible="false">
+            <div data-role="header" data-theme="a">
+
+                <h2 id="Info">Information about the game</h2>
+
+
+            </div>
+            <div role="main" class="ui-content">
+
+
+
+
+                <div id="Info">
+                    <p>Powered by Yassine Azzouagh</p>
+
+
+                </div>
+
+                <button id="returnBtn">Return</button>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div data-role="page" id="resultaat">
+        <p id="naamRes"></p>
+        <img src="" alt="resultaat" id="resultaatImg">
+
+        <button id="again" class="tryagain">Try again</button>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

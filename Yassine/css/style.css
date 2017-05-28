@@ -1,0 +1,474 @@
+body {
+    text-transform: uppercase;
+    background-image: url(../image/wallpapers.jpg);
+    background-size: 100vw;
+}
+
+#loadImage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#textLoad {
+    position: relative;
+    z-index: 1;
+    color: saddlebrown;
+    text-align: center;
+    font-size: 3em;
+}
+
+#titelGegevens {
+    cursor: pointer;
+    width: 70vw;
+    display: block;
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+    font-family: cursive;
+    text-decoration: none;
+    text-align: center;
+    color: saddlebrown;
+}
+
+#wereldGegevens {
+    display: block;
+    margin: auto;
+}
+
+.gegevensNaam {
+    text-shadow: none;
+    text-align: center;
+    font-weight: bold;
+    color: saddlebrown;
+    text-decoration: underline;
+    font-size: 1.2em;
+    width: 80vw;
+    padding: 1%;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.ui-input-text {
+    border-style: none;
+}
+
+input#txtNaam {
+    text-align: center;
+    font-family: fantasy;
+    text-transform: uppercase;
+    background-color: blanchedalmond;
+    border: 2px solid saddlebrown;
+    border-radius: 13px;
+    width: 50vw;
+    display: block;
+    margin: auto;
+}
+
+.ui-loader {
+    display: none;
+}
+
+.ui-btn,
+.ui-input-btn,
+.ui-shadow {
+    border-radius: 5px;
+    background-color: maroon;
+    width: 20vh;
+    display: block;
+    margin: auto;
+}
+
+#welcomeParagraph {
+    animation: example 5s infinite;
+    height: 90px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    margin-top: 20vw;
+}
+
+#welcome {
+    font-size: 1.8em;
+    position: relative;
+}
+
+#buttonAccept {
+    background-color: maroon;
+    text-align: center;
+    width: 50vw;
+    position: absolute;
+    bottom: 10vw;
+    left: 25vw;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+}
+
+@keyframes example {
+    0% {
+        color: burlywood;
+        font-size: 1.9em;
+    }
+    25% {
+        color: sienna;
+        font-size: 2em;
+    }
+    50% {
+        color: saddlebrown;
+        font-size: 2.1em;
+    }
+    75% {
+        color: sienna;
+        font-size: 2em;
+    }
+    100% {
+        color: burlywood;
+        font-size: 1.9em;
+    }
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#scoor {
+    width: 1%;
+    height: 30px;
+    background-color: #4CAF50;
+}
+
+#europeBTN {
+    width: 40vw;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+    border-color: black;
+    border-radius: 20px;
+    background-color: saddlebrown;
+}
+
+#europeImg {
+    margin-top: 1vw;
+    width: 30%;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+#afrikaBTN {
+    width: 40vw;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+    border-color: black;
+    border-radius: 20px;
+    background-color: saddlebrown;
+}
+
+#afrikaImg {
+    margin-top: 1vw;
+    width: 30%;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+#asiaBTN {
+    width: 40vw;
+    display: block;
+    margin: auto;
+    margin-top: 3vw;
+    border-color: black;
+    border-radius: 20px;
+    background-color: saddlebrown;
+}
+
+#asiaImg {
+    margin-top: 1vw;
+    width: 30%;
+    float: left;
+    display: block;
+    margin: auto;
+}
+
+.textButton {
+    clear: right;
+    float: left;
+    height: 12vh;
+    width: 20vw;
+    position: relative;
+}
+
+.textButton p {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 2em;
+}
+
+#fixedBottom {
+    margin-top: 10vw;
+}
+
+#popupInfo {
+    border: solid 1px firebrick;
+    border-radius: 50px;
+    color: white;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+#infoApp {
+    margin: 1%;
+    background: saddlebrown;
+    padding: 1%;
+    border-radius: 40px;
+    float: right;
+    border: 2px solid firebrick;
+}
+
+.sound {
+    margin: 1%;
+    background: saddlebrown;
+    padding: 1%;
+    border-radius: 40px;
+    position: absolute;
+    border: 2px solid firebrick;
+}
+
+.back {
+    position: absolute;
+    bottom: 0;
+    margin: 1vw;
+    width: 5vw;
+    background: saddlebrown;
+    padding: 1%;
+    border-radius: 40px;
+    position: absolute;
+    border: 2px solid firebrick;
+}
+
+#returnBtn {
+    width: 50vw;
+    height: 7vw;
+}
+
+#resultaatImg {
+    width: 50vw;
+    height: 50vh;
+    display: block;
+    margin: auto;
+    margin-top: 10vw;
+}
+
+#naamRes {
+    color: red;
+    width: 100vw;
+    text-align: center;
+    font-size: 2em
+}
+
+#commentaar {
+    position: absolute;
+    bottom: 10vw;
+    width: 50vw;
+    display: block;
+    margin: auto;
+}
+
+#GoodOrNot {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+
+#infoWorld {
+    width: 20vw;
+    padding: 1vh;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    background-color: saddlebrown;
+    border: 2px solid firebrick;
+}
+
+#countryVraag {
+    width: 20vw;
+    height: 25vh;
+    margin: auto;
+    display: block;
+}
+
+#vraagbox {
+    height: 40vh;
+    padding-top: 5vw;
+    width: 50vw;
+    display: block;
+    margin: auto;
+}
+
+#btnAntwoord {
+    width: 50vw;
+}
+
+#antwoord {
+    background-color: white;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+#lockAfrika {
+    float: right;
+    width: 2vw
+}
+
+#lockEurope {
+    float: right;
+    width: 2vw
+}
+
+#lockAsia {
+    float: right;
+    width: 2vw
+}
+
+#again {
+    width: 50vw;
+    height: 10vh;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    #europeBTN {
+        background-color: saddlebrown;
+        border-color: firebrick;
+    }
+    #fixedBottom {
+        margin-top: 30vw;
+    }
+    #europeImg {
+        margin-top: 1vw;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #afrikaBTN {
+        background-color: saddlebrown;
+        border-color: firebrick;
+    }
+    #afrikaImg {
+        margin-top: 1vw;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #asiaBTN {
+        background-color: saddlebrown;
+        border-color: firebrick;
+    }
+    #asiaImg {
+        margin-top: 1vw;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .textButton {
+        display: none
+    }
+    .textButton p {
+        display: none;
+    }
+    #countryVraag {
+        width: 40vw;
+        height: 25vh;
+        margin: auto;
+        display: block;
+    }
+    #infoApp {
+        margin: 1%;
+        background: saddlebrown;
+        padding: 1%;
+        border-radius: 40px;
+        float: right;
+        border: 2px solid firebrick;
+        width: 15vw;
+    }
+    .sound {
+        width: 15vw;
+    }
+    #infoWorld {
+        width: 50vw;
+        ;
+        padding: 1v;
+        text-align: center;
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+    }
+    .back {
+        position: absolute;
+        bottom: 0;
+        margin: 1vw;
+        width: 20vw;
+        background: saddlebrown;
+        padding: 1%;
+        border-radius: 40px;
+        position: absolute;
+        border: 2px solid firebrick;
+    }
+    #scoor {
+        width: 1%;
+        height: 30px;
+        background-color: green;
+        margin-top: 10vw;
+    }
+    #antwoord {
+        text-align: center;
+        border: 2px solid green;
+    }
+    #lockAfrika {
+        float: right;
+        width: 5vw
+    }
+    #lockEurope {
+        float: right;
+        width: 5vw
+    }
+    #lockAsia {
+        float: right;
+        width: 5vw
+    }
+    #popupInfo {
+        margin: auto;
+        display: block;
+        margin-left: 0vw;
+        margin-top: -42vw;
+        height: 110vw;
+        width: 90vw;
+        border-radius: 40px;
+            z-index: 1;
+    }
+    #returnBtn {
+        width: 50vw;
+        height: 20vw;
+    }
+    #resultaatImg {
+        width: 70vw;
+        height: 40vh;
+        display: block;
+        margin: auto;
+        margin-top: 20vw;
+    }
+    #tryagain {
+        width: 100vw;
+    }
+}
